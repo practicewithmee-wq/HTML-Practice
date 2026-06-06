@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Image Tag in HTML -->
+    <img src="/assets/anime.jpg">
+    <!-- This is an image tag in HTML. The 'src' attribute specifies the path to the image file. -->
+    <img src="/assets/anime.jpg" alt="Anime Image">
+    <!-- The 'alt' attribute provides alternative text for the image if it cannot be displayed. -->
+    <img src="/assets/anime.jpg" alt="Anime Image" width="150" height="150">
+    <!-- The 'width' and 'height' attributes specify the dimensions of the image. -->
+
+    <!-- Table Tag in HTML -->
+    <table border="1"> <!-- The 'border' attribute adds a border to the table. -->
+        <caption>Student Information</caption> <!-- The 'caption' tag provides a title for the table. -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Class</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>10th Grade</td>
+                <td rowspan="2">85</td>
+                <!-- The 'rowspan' attribute allows a cell to span multiple rows. In this case, the marks cell will span two rows. -->
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td colspan="2">Mary</td>
+                <!-- The 'colspan' attribute allows a cell to span multiple columns. In this case, the name and age cells will be combined into one cell that spans two columns. -->
+                <td>12th Grade</td>
+
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>22</td>
+                <td>11th Grade</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Students</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- List Tags in HTML -->
+
+    <!-- Unordered List -->
+    <ul>
+        <li type="disc">Item 1</li>
+        <li type="circle">Item 2</li>
+        <li type="square">Item 3</li>
+    </ul>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+        <li type="1">First Item</li>
+        <li type="a">Second Item</li>
+        <li type="A">Third Item</li>
+        <li type="i">Fourth Item</li>
+        <li type="I">Fifth Item</li>
+    </ol>
+
+    <!-- Definition List -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for the web</dd>
+    </dl>      
+</body>
+
+</html>
