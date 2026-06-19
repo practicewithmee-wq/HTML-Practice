@@ -58,5 +58,18 @@ HTML headings are defined with the `<h1> to <h6>` tags.
 **HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.**     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `7_Color.html`
 
-## HTML CSS
+## HTML Styles - CSS
+- CSS stands for Cascading Style Sheets.
+- CSS saves a lot of work. It can control the layout of multiple web pages all at once. 
+
+**What is CSS?**    
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+**Using CSS**   
+CSS can be added to HTML documents in 3 ways:
+- Inline - by using the `style` attribute inside HTML elements
+- Internal - by using a `<style>` element in the <head> section
+- External - by using a `<link>` element to link to an external CSS file
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `8_Style.html`
 
