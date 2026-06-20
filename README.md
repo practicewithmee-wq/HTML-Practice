@@ -91,4 +91,16 @@ The target attribute can have one of the following values:
 - `_top` - Opens the document in the full body of the window    
 &emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `9_Links.html`
 
+## HTML Image
+Images can improve the design and the appearance of a web page.     
+**HTML Images Syntax**      
+The HTML `<img>` tag is used to embed an image in a web page. 
+
+Images are not technically inserted into a web page; images are linked to web pages. The `<img>` tag creates a holding space for the referenced image. 
+
+The `<img>` tag has two required attributes:
+- `alt` - Specifies an alternate text for the image
+- `src` - Specifies the path to the image   
+&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `10_Images.html`
+
 
