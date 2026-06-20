@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    div a:visited {
+        color: rgb(98, 0, 255);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    div a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    div a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+
+    <a href="https://www.google.com/">Go to google.com</a> <!-- creates a link -->
+    <br>
+
+    <a href="https://www.google.com/" target="_blank">Go to google.com</a>
+    <!-- creates a link that opens in a new tab -->
+    <br>
+
+    <a href="https://www.google.com/" target="_self">Go to google.com</a>
+    <!-- creates a link that opens in the same tab -->
+    <br>
+
+    <a href="https://www.google.com/" target="_parent">Go to google.com</a>
+    <!-- creates a link that opens in the parent frame -->
+    <br>
+
+    <a href="https://www.google.com/" target="_top">Go to google.com</a>
+    <!-- creates a link that opens in the full body of the window -->
+    <br>
+
+
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.google.com/" target="_blank">Google</a></p>
+    <br>
+
+    <h2>Relative URLs</h2>
+    <p><a href="/assets/anime.jpg">Anime Image</a></p>
+    <br>
+
+    <a href="https://www.google.com/" target="_blank">
+        <img src="/assets/anime.jpg" alt="animeimage" style="width:42px;height:42px;">
+    </a>
+
+
+    <h2>Link to an Email Address</h2>
+    <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the
+        href attribute:</p>
+    <p><a href="mailto:practicewithmee@gmail.com">Send email</a></p>
+    <br>
+
+    <button onclick="window.location.href='/assets/sound.mp3'">HTML Tutorial</button>
+    <!-- creates a button that links to another page -->
+    <br>
+
+    <a href="https://github.com/practicewithmee-wq/Practice-Git-and-Github/" title="Go to Practice-Git-and-Github ">Go
+        to Practice-Git-and-Github</a> <!-- creates a link with a tooltip -->
+    <br>
+
+    <div>
+        <a href="https://www.facebook.com/" target="_blank">Go to Facebook</a>
+    </div>
+
+
+            <h1>Create a Bookmarks</h1>
+            <p><a href="#C4">Jump to Chapter 4</a></p>
+            <p><a href="#C15">Jump to Chapter 15</a></p>
+
+            <h2>Chapter 1</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 2</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 3</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2 id="C4">Chapter 4</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 5</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 6</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 7</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 8</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 9</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 10</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 11</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 12</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 13</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 14</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2 id="C15">Chapter 15</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 16</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 17</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 18</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 19</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 20</h2>
+            <p>This chapter explains ba bla bla</p>
+
+
+</body>
+
+</html>
