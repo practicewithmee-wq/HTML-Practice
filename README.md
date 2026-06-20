@@ -73,3 +73,22 @@ CSS can be added to HTML documents in 3 ways:
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `8_Style.html`
 
+## HTML Links
+**HTML Links - Syntax**     
+The HTML `<a>` tag defines a hyperlink. It has the following syntax:    
+`<a href="url">link text</a>`   
+
+**HTML Links - The target Attribute**   
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link. 
+
+The `target` attribute specifies where to open the linked document. 
+
+The target attribute can have one of the following values:  
+
+- `_self` - Default. Opens the document in the same window/tab as it was clicked  
+- `_blank` - Opens the document in a new window or tab
+- `_parent` - Opens the document in the parent frame
+- `_top` - Opens the document in the full body of the window    
+&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `9_Links.html`
+
+
