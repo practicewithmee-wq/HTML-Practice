@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
 </head>
+
 <body>
-    
+
     <h1>Absolute Path</h1>
     <img src="https://static01.nyt.com/images/2025/08/14/12visualUploader-8432-cover/12visualUploader-8432-cover-mediumSquareAt3X.jpg" alt="anime image"> 
     <br>
@@ -30,7 +32,37 @@
     <map name="work">
         <area shape="circle" coords="145, 95, 120" alt="pc image" href="https://www.google.com/">
 
+    <h1>Background Image on an HTML element</h1>
+    <p style="background-image: url('/assets/anime.jpg');">This is a paragraph with a background image.</p>
 
-    
+
+
+        <h2>The picture Element</h2>
+
+        <picture>
+            <source media="(min-width: 500px)" srcset="/assets/anime.jpg" height="300">
+
+            <source media="(min-width: 400px)" srcset="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg" height="250">
+
+
+            <img src="https://object.pixocial.com/pixocial/dmxffni837f1xrj8pki9xgrl.jpg" height="230">
+        </picture>
+
+        <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+            The browser looks for the first source element where the media query matches the user's current viewport
+            width,
+            and fetches the image specified in the srcset attribute.</p>
+
+        <p>The img element is required as the last child tag of the picture declaration block.
+            The img element is used to provide backward compatibility for browsers that do not support the picture
+            element, or if none of the source tags matched.
+        </p>
+
+
+
+
+
+
 </body>
+
 </html>

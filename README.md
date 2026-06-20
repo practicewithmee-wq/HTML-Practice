@@ -103,4 +103,23 @@ The `<img>` tag has two required attributes:
 - `src` - Specifies the path to the image   
 &emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `10_Images.html`
 
+## HTML Tables
+HTML tables allow web developers to arrange data into rows and columns.       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex- `11_Tables.html`
+
+## HTML Lists
+HTML lists allow web developers to group a set of related items in lists    
+**Unordered HTML list:**
+- Item
+- Item
+- Item
+- Item
+
+**Ordered HTML list:**
+1. First item
+2. second item
+3. Third item
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `12_Lists.html`
+
 
