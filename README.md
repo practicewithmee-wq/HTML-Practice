@@ -183,14 +183,19 @@ HTML has several semantic elements that define the different parts of a web page
 
 ![layout](/assets/layout.png)
 
-- `<header>` - Defines a header for a document or a section
-- `<nav>` - Defines a set of navigation links
-- `<section>` - Defines a section in a document
-- `<article>` - Defines independent, self-contained content
-- `<aside>` - Defines content aside from the content (like a sidebar)
-- `<footer>` - Defines a footer for a document or a section
-- `<details>` - Defines additional details that the user can open and close on demand
-- `<summary>` - Defines a heading for the `<details>` element
+- `<header>` - Defines a header for a document or a section.
+- `<nav>` - Defines a set of navigation links.
+- `<section>` - Defines a section in a document.
+- `<article>` - Defines independent, self-contained content.
+- `<aside>` - Defines content aside from the content (like a sidebar).
+- `<footer>` - Defines a footer for a document or a section.
+- `<details>` - Defines additional details that the user can open and close on demand.
+- `<summary>` - Defines a heading for the `<details>` element.
+- `<main>` - Specifies the main content of a document.
+- `<figcaption>` - Defines a caption for a `<figure>` element.
+- `<figure>` - Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+- `<mark>` - Defines marked/highlighted text.
+- `<time>` - Defines a date/time.
 
 **HTML Layout Techniques**      
 There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
