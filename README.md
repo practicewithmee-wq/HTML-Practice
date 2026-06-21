@@ -152,3 +152,11 @@ The HTML `id` attribute is used to specify a unique id for an HTML element.
 You cannot have more than one element with the same id in an HTML document.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `14_Class_And_Id_Attribute.html`
+
+## HTML Buttons
+Buttons let users interact with a web page. They can submit forms, run JavaScript, or trigger different actions when clicked.   
+The HTML `<button>` element defines a clickable button.
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `15_Buttons.html`
+
+##
