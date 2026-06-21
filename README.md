@@ -203,3 +203,26 @@ There are four different techniques to create multicolumn layouts. Each techniqu
 - CSS float property
 - CSS flexbox
 - CSS grid
+
+## HTML Forms
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+**The `<form>` Element**    
+The HTML `<form>` element is used to create an HTML form for user input:    
+```
+<form>
+.
+form elements
+.
+</form>
+```
+The `<form>` element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+**The `<input>` Element**   
+The HTML `<input>` element is the most used form element.   
+An `<input>` element can be displayed in many ways, depending on the type attribute.    
+
+Here are some examples:
+![inputelement](/assets/input_element.png)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `18_Forms.html`
