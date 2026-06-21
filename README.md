@@ -159,4 +159,11 @@ The HTML `<button>` element defines a clickable button.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `15_Buttons.html`
 
-##
+## HTML Iframes
+An HTML iframe is used to display a web page within a web page.
+
+**HTML Iframe Syntax**      
+The HTML `<iframe>` tag specifies an inline frame.    
+An inline frame is used to embed another document within the current HTML document.
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `16_Iframes.html`
