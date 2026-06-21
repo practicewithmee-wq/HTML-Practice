@@ -167,3 +167,34 @@ The HTML `<iframe>` tag specifies an inline frame.
 An inline frame is used to embed another document within the current HTML document.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `16_Iframes.html`
+
+## HTML `<meta>` Element
+The `<meta>` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.     
+
+The metadata will not be displayed on the page, but is used by browsers (how to display content or reload page), by search engines (keywords), and other web services.      
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `17_Meta.html`
+
+## HTML Layout Elements and Techniques
+Websites often display content in multiple columns (like a magazine or a newspaper).
+
+**HTML Layout Elements**    
+HTML has several semantic elements that define the different parts of a web page:
+
+![layout](/assets/layout.png)
+
+- `<header>` - Defines a header for a document or a section
+- `<nav>` - Defines a set of navigation links
+- `<section>` - Defines a section in a document
+- `<article>` - Defines independent, self-contained content
+- `<aside>` - Defines content aside from the content (like a sidebar)
+- `<footer>` - Defines a footer for a document or a section
+- `<details>` - Defines additional details that the user can open and close on demand
+- `<summary>` - Defines a heading for the `<details>` element
+
+**HTML Layout Techniques**      
+There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
+- CSS frameworks
+- CSS float property
+- CSS flexbox
+- CSS grid
