@@ -40,7 +40,7 @@ HTML headings are defined with the `<h1> to <h6>` tags.
 
 - The HTML `<p>` element defines a paragraph.
 - A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.     
-&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `4_Paragraphs.html`
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `4_Paragraphs.html`
 
 ## HTML Styles
 **The HTML `style` attribute is used to add styles to an element, such as color, font, size, and more.**
@@ -89,7 +89,7 @@ The target attribute can have one of the following values:
 - `_blank` - Opens the document in a new window or tab
 - `_parent` - Opens the document in the parent frame
 - `_top` - Opens the document in the full body of the window    
-&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `9_Links.html`
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `9_Links.html`
 
 ## HTML Image
 Images can improve the design and the appearance of a web page.     
@@ -101,7 +101,7 @@ Images are not technically inserted into a web page; images are linked to web pa
 The `<img>` tag has two required attributes:
 - `alt` - Specifies an alternate text for the image
 - `src` - Specifies the path to the image   
-&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `10_Images.html`
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `10_Images.html`
 
 ## HTML Tables
 HTML tables allow web developers to arrange data into rows and columns.       
