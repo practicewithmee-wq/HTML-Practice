@@ -28,7 +28,7 @@
 - Attributes provide additional information about elements
 - Attributes are always specified in the start tag
 - Attributes usually come in name/value pairs like: name="value"    
-&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `2_Attribute.html`
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `2_Attribute.html`
 
 ## HTML Headings
 **HTML headings are titles or subtitles that you want to display on a webpage.**    
