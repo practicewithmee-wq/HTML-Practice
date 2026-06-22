@@ -224,7 +224,14 @@ The `<form>` element is a container for different types of input elements, such 
 The HTML `<input>` element is the most used form element.   
 An `<input>` element can be displayed in many ways, depending on the type attribute.    
 
-Here are some examples:
-![inputelement](/assets/input_element.png)
+Here are the different input types you can use in HTML:     
+`<input type="button">` `<input type="checkbox">` `<input type="color">` `<input type="date">` `<input type="datetime-local">` `<input type="email">`
+`<input type="file">` `<input type="hidden">` `<input type="image">`
+`<input type="month">` `<input type="number">` `<input type="password">`
+`<input type="radio">` `<input type="range">` `<input type="reset">`
+`<input type="search">` `<input type="submit">` `<input type="tel">`
+`<input type="text">` `<input type="time">` `<input type="url">`
+`<input type="week">`
+
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `18_Forms.html`
