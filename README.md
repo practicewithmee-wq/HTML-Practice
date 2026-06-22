@@ -235,3 +235,17 @@ Here are the different input types you can use in HTML:
 
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `18_Forms.html`
+
+## HTML Multimedia
+Multimedia on the web is sound, music, videos, movies, and animations.
+
+**What is Multimedia?**     
+Multimedia comes in many different formats. It can be almost anything you can hear or see, like images, music, sound, videos, records, films, animations, and more.     
+Web pages often contain multimedia elements of different types and formats.
+
+**HTML Video And Audio**    
+The HTML `<video>` element is used to show a video on a web page.       
+The HTML `<audio>` element is used to play an audio file on a web page.
+
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `19_Media.html`
